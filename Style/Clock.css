@@ -1,0 +1,117 @@
+body{
+    background-color: #354649;
+
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    background-size: cover;
+}
+
+header{
+    background-color: transparent;
+    color: whitesmoke;
+    text-align: center; 
+    width: fit-content;
+    margin: auto;
+    font-size: x-large;
+}
+
+.Content{
+    margin: auto;
+    width: fit-content;
+    
+    
+    
+}
+
+.Mainbtn{
+ background-color: rgb(53, 70, 73);
+ font-size: 45px;
+ width: 250px;
+cursor: pointer;
+ color: rgb(255, 255, 255);
+}
+
+button:hover{
+ background-color: rgb(128, 128, 128);
+}
+.back{
+   position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+#Message{
+    color: #1f71e4;
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+}
+aside{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.display{
+    color: whitesmoke;
+    width: 100%;
+    font-size: 30px;
+    padding: 10px;
+    background-color: #506262;
+    border: solid black 3px;
+    border: inset;
+   
+}
+
+ul {
+    list-style: none;
+  }
+  
+  h1 {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 32px;
+    color: #ffffff;
+    font-weight: 700;
+  }
+a{
+    margin-left: 80%; 
+    background-color: transparent; 
+    margin-top: -150%; 
+    color: white;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 32px;
+}
+
+.Coolbtn{
+    background-color: rgb(53, 70, 73);
+    font-size: 32px;
+    width: 250px;
+   cursor: pointer;
+    color: rgb(255, 255, 255);
+    text-align: center;
+   }
+
+@media (min-aspect-ratio: 16/9){
+    .back{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9){
+    .back{
+        width: auto;
+        height: 100%;
+    }
+}
